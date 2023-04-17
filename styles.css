@@ -7,8 +7,9 @@
     box-sizing:border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 .body{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(230, 230, 230);
 }
 .header{
     display: flex;
@@ -39,4 +40,31 @@
 .nav-link:active{
     text-decoration: none;
     color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.description-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin: 4rem 0 2rem 0;
+    width: 90%;
+    height: 30rem;
+}
+.description-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+}
+.description-title{
+    font-size: 4rem;
+}
+.description-resume{
+    font-weight: lighter;
+    font-size: 2rem;
 }
