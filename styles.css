@@ -44,16 +44,24 @@
 
 .main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .description-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 4rem;
-    margin: 4rem 0 2rem 0;
-    width: 90%;
+    justify-content: space-between;
+    margin: 4rem 0 4rem 0;
+    padding: 2rem 2rem;
+    width: 60%;
     height: 30rem;
+    border-bottom: .2rem solid rgb(255, 150, 0);
+    border-top: .2rem solid rgb(255, 150, 0);
+}
+.description-img{
+    border-radius: 2rem;
+    width: 16rem;
+    box-shadow: .5rem .5rem 1rem black;
 }
 .description-text{
     display: flex;
@@ -63,8 +71,34 @@
 }
 .description-title{
     font-size: 4rem;
+    color: rgb(255, 150, 0);
 }
 .description-resume{
     font-weight: lighter;
     font-size: 2rem;
 }
+.social-icon{
+    text-decoration: none;
+    color: rgb(255, 150, 0);
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    background-color: aliceblue;
+    padding-top: 4rem;
+}
+.items-container{
+    display: flex;
+}
+.portfolio-title{
+    text-align: center;
+    width: 100%;
+    font-size: 10rem;
+    border-bottom: .2rem solid rgb(255, 150, 0);;
+}
+
