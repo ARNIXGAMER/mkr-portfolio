@@ -51,16 +51,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 4rem 0 4rem 0;
     padding: 2rem 2rem;
     width: 60%;
-    height: 30rem;
+    height: 50rem;
     border-bottom: .2rem solid rgb(255, 150, 0);
     border-top: .2rem solid rgb(255, 150, 0);
 }
 .description-img{
     border-radius: 2rem;
     width: 16rem;
+    height: 30rem;
     box-shadow: .5rem .5rem 1rem black;
 }
 .description-text{
@@ -88,7 +90,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 40rem;
+    height: 70rem;
     background-color: aliceblue;
     padding-top: 4rem;
 }
@@ -126,3 +128,9 @@
     font-size: 2rem;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
